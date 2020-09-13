@@ -10,11 +10,21 @@ git add .
 git add "git commands.txt"
 
 git commit -m "commit message"
+git commit -a // automatically stages all changes from the tracked files from the working directory
 
 git remote add origin https://github.com/andrejzaha/coffee-shop.git // https from github
 
+git push
 git push -u origin master
 
 git status
+git status --short
 
+// for changes that are staged
+git diff --staged
+git diff --staged --no-renames
+
+// for changes that haven't been staged yet
+//  and are only in our working directory
+git diff
 
