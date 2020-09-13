@@ -7,11 +7,14 @@ git config --global user.email "user@email.com"
 git init
 
 git add .
+git add "git commands.txt"
 
 git commit -m "commit message"
 
 git remote add origin https://github.com/andrejzaha/coffee-shop.git // https from github
 
 git push -u origin master
+
+git status
 
 
