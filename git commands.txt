@@ -1,0 +1,17 @@
+git --version
+
+git config --list
+git config --global user.name "user name"
+git config --global user.email "user@email.com"
+
+git init
+
+git add .
+
+git commit -m "commit message"
+
+git remote add origin https://github.com/andrejzaha/coffee-shop.git // https from github
+
+git push -u origin master
+
+
