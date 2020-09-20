@@ -28,3 +28,40 @@ git diff --staged --no-renames
 //  and are only in our working directory
 git diff
 
+// lists the commits made to the project 
+// in reverse chronological order => most recent show up first
+git log
+
+// limit the git log to 1 commit
+git log -1 
+
+// all commits in a single line format
+git log --oneline
+
+// detailed log of all the commits
+git log --stat
+
+// detailed log with diff
+git log --patch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
