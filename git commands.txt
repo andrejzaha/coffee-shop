@@ -46,6 +46,7 @@ git log --patch
 
 // remove file from git (and delete it from the local repo)
 git rm "git commands.txt"
+git rm --cached "git commands.txt" // remove from version-control but keep in local working directory
 
 // create new branch named new_branch_name and checkout the new branch
 git checkout -b new_banch_name
@@ -55,6 +56,12 @@ git branch branch_x
 
 // point the HEAD pointer to branch_1
 git checkout branch_1
+
+// save the working directory in a WIP state on the branch
+git stash
+git stash list	// see stashes
+git stash show // see stashes with details
+git stash pop // reload the working directory from the stash
 
 
 
