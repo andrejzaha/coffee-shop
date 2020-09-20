@@ -44,6 +44,18 @@ git log --stat
 // detailed log with diff
 git log --patch
 
+// remove file from git (and delete it from the local repo)
+git rm "git commands.txt"
+
+// create new branch named new_branch_name and checkout the new branch
+git checkout -b new_banch_name
+
+//only create the branch but don't checkout the branch
+git branch branch_x
+
+// point the HEAD pointer to branch_1
+git checkout branch_1
+
 
 
 
