@@ -63,6 +63,10 @@ git stash list	// see stashes
 git stash show // see stashes with details
 git stash pop // reload the working directory from the stash
 
+// merge the specified branch into the current branch
+git merge branch_to_be_merged_into_current
+
+
 
 
 
